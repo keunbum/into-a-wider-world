@@ -10,13 +10,13 @@ Before getting into bash scripting, I'd like to start with some simple Linux bas
 
 3. hardware management
 
-   Any device connected to a Linux system requires driver code embedded inside the kernel code.
-
-   A Linux system identifies a hardware device by a device file.
-      
-      * Character   - one character at a time for process data
-      * Block       - large amounts of data at once, such as disk drives
-      * Network     - use packets to send and receive data
+  Any device connected to a Linux system requires driver code embedded inside the kernel code.
+  
+  A Linux system identifies a hardware device by a device file.
+  
+    * Character   - one character at a time for process data
+    * Block       - large amounts of data at once, such as disk drives
+    * Network     - use packets to send and receive data
 
 
 4. file system management
@@ -26,9 +26,9 @@ Before getting into bash scripting, I'd like to start with some simple Linux bas
 
 ### GNU Coreutiles packages
 
-   * to handle files
-   * to manipulate text
-   * to manage the process
+  * to handle files
+  * to manipulate text
+  * to manage the process
 
 ### Shell
 The GNU/Linux shell is a special interactive utility. The command prompt is reponsible for interacting with thie shell.
