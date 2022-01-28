@@ -17,15 +17,17 @@ set autoindent
 
 ### this PPA provides the latest stable upstream Git version
 
-
+```bash
+$ add-apt-repository ppa:git-core/ppa
+```
 
 ## gcc/g++
 
 ### how to stay up to date
 
 ```bash
-$ sudo apt install software-properties-common
-$ sudo add-apt-repository ppa:ubuntu-tollchain-r/test
-$ sudo apt update
-$ sudo apt install g++
+$ apt install software-properties-common
+$ add-apt-repository ppa:ubuntu-tollchain-r/test
+$ apt update
+$ apt install g++
 ```
