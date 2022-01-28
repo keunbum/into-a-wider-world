@@ -1,5 +1,5 @@
 # Tips
-I would like to write some small tips in Ubuntu distribution.
+I would like to write some small tips in Debian/Ubuntu distribution.
 
 ## vim
 

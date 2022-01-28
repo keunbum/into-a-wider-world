@@ -4,6 +4,8 @@ Before getting into bash scripting, I'd like to start with some simple Linux bas
 ## What is LInux?
 
 * Kernel
+
+  The Linux kernel is the heart of the system, and controls how memory, programs and hardware interact.
   
   #### Key features of the kernel
   
@@ -44,3 +46,9 @@ Before getting into bash scripting, I'd like to start with some simple Linux bas
 
 
 ## Linux Distribution
+
+* Core Linux Distribution
+ 
+* Specialized Linux Distribution
+
+* Linux Live CD
