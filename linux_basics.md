@@ -19,5 +19,22 @@ Before getting into bash scripting, I'd like to start with some simple Linux bas
       * Network     - use packets to send and receive data
 
 
-4. file system managementL linux basic
-Before getting into bash scripting, I'd like to start with some simple Linux basics.
+4. file system management
+
+
+## GNU Utilities
+
+### GNU Coreutiles packages
+
+   * to handle files
+   * to manipulate text
+   * to manage the process
+
+### Shell
+The GNU/Linux shell is a special interactive utility. The command prompt is reponsible for interacting with thie shell.
+When you enter a text command through this, shell interprets it and execute it in the kernel.
+
+## Graphical Desktop Environment
+
+
+## Application Software
