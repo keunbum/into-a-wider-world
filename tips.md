@@ -15,7 +15,7 @@ set autoindent
 
 ## git
 
-### this PPA provides the latest stable upstream Git version
+### up to date
 
 ```bash
 $ add-apt-repository ppa:git-core/ppa
@@ -23,7 +23,7 @@ $ add-apt-repository ppa:git-core/ppa
 
 ## gcc/g++
 
-### how to stay up to date
+### up to date
 
 ```bash
 $ apt install software-properties-common
