@@ -3,7 +3,7 @@
 ## vim
 
 ```vimrc
-# in ~/.vimrc
+" in ~/.vimrc
 
 set expandtab
 set shiftwidth=2
