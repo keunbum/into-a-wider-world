@@ -11,3 +11,7 @@ set expandtab
 set shiftwidth=2
 set autoindent
 ```
+
+## git
+
+### this PPA provides the latest stable upstream Git version
