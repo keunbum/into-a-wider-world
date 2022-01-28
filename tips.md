@@ -35,11 +35,16 @@ $ add-apt-repository ppa:git-core/ppa
 
 ## gcc/g++
 
+### before install
+
+```bash
+$ sudo apt update
+$ sudo apt install build-essential
+```
+
 ### up to date
 
 ```bash
 $ apt install software-properties-common
 $ add-apt-repository ppa:ubuntu-tollchain-r/test
-$ apt update
-$ apt install g++
 ```
