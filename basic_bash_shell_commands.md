@@ -37,18 +37,14 @@ $ man -k [word]
 
 In general, the man utility provides the lowest numbered content section for commands.
 
-If the command has a man page spanning a multi-section,
 ```bash
+# if the command has a man page spanning a multi-section,
 $ man [section-number] [word]
-```
 
-A note about the section area itself.
-```
+# a note about the section area itself.
 $ man [section-number] intro
-```
 
-You can also use 'info' or help(-help or --help)
-```
-# if you want to know what it is
+# you can also use 'info' or 'help'(-help or --help)
 $ info info
 $ help help
+```
