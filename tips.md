@@ -38,8 +38,8 @@ $ add-apt-repository ppa:git-core/ppa
 ### before install
 
 ```bash
-$ sudo apt update
-$ sudo apt install build-essential
+$ apt update
+$ apt install build-essential
 ```
 
 ### up to date
