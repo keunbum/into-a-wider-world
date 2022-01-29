@@ -5,6 +5,6 @@ Furthermore, some tips on Debian/Ubuntu distributions..
 
 ## A kind of table of contents
 
-1. tips.md
-2. linux_basic.md
-3. basic_bash_shell_commands.md
+1. [tips.md](https://github.com/keunbum/into-a-wider-world/blob/main/tips.md)
+2. [linux_basic.md](https://github.com/keunbum/into-a-wider-world/blob/main/linux_basic.md)
+3. [basic_bash_shell_commands.md](https://github.com/keunbum/into-a-wider-world/blob/main/basic_bash_shell_commands.md)
