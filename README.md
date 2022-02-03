@@ -3,7 +3,7 @@ For a series of bash scripting.
 
 Furthermore, some tips on Debian/Ubuntu distributions..
 
-## A kind of table of contents
+## Table of contents
 
 1. [tips.md](https://github.com/keunbum/into-a-wider-world/blob/main/tips.md)
 2. [linux_basic.md](https://github.com/keunbum/into-a-wider-world/blob/main/linux_basic.md)
