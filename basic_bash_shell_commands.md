@@ -48,3 +48,14 @@ $ man [section-number] intro
 $ info info
 $ help help
 ```
+
+## explore file system
+
+### Linux file system
+
+Common Linux directory names are based on the FHS(Filesystem Hierarchy Standard).
+
+### directory
+
+
+## view a list of files and directories
