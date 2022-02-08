@@ -134,9 +134,9 @@ $ cp -R [src] [target]
 
 there are two types of file links available in Linux.
 
-* symbolic link
-
 [man ln](https://man7.org/linux/man-pages/man1/ln.1.html)
+
+* symbolic link
 
 * hard link
 
