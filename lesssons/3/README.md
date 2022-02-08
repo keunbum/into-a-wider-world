@@ -222,4 +222,23 @@ $ cat -T [fie]
 
 * [less](https://man7.org/linux/man-pages/man1/less.1.html)
 
+less better than more..
+
 ### view part of a file
+
+* [tail](https://man7.org/linux/man-pages/man1/tail.1.html)
+
+```bash
+# How many lines do you want to display from the last?
+# The default value is 10.
+$ tail -n 2 [file]
+
+# Do you want real-time detection?
+# (even while another process is accessing the file)
+$ tail -f [file]
+```
+
+* [head](https://man7.org/linux/man-pages/man1/head.1.html)
+
+# for simplicity
+$ head -5 [file]
