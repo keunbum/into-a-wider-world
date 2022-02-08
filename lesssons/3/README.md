@@ -240,5 +240,7 @@ $ tail -f [file]
 
 * [head](https://man7.org/linux/man-pages/man1/head.1.html)
 
+```bash
 # for simplicity
 $ head -5 [file]
+```
