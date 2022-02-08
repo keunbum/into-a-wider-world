@@ -211,15 +211,15 @@ $ rm -rf dir
 # line numbering
 $ cat -n [file]
 
-# if you want omit blank lines, use -b
+# if you want ignore blank lines, use -b
 $ cat -b [file]
 
-# if you dont' want the tab character to appear, use -T
+# if you dont' want replace the tab character to other, use -T
 $ cat -T [fie]
 ```
 
 * [more](https://man7.org/linux/man-pages/man1/more.1.html)
 
-* [less](https://man7.org/linux/man-pages/man1/less.1.html
+* [less](https://man7.org/linux/man-pages/man1/less.1.html)
 
 ### view part of a file
