@@ -63,6 +63,8 @@ Common Linux directory names are based on the FHS(Filesystem Hierarchy Standard)
 
 ## View a list of files and directories
 
+[man ls](https://man7.org/linux/man-pages/man1/ls.1.html)
+
 ### show default list
 
 ```bash
@@ -107,11 +109,36 @@ Let's use regular expressions.
 
 ### create a file
 
+```bash
+# create an empty file
+# if a file already exists, update the modification time
+$ touch [file]
+
+# update the usage time of the file
+$ touch -a [file]
+# check the usage time of the file
+$ ls -l --time=atime [file]
+```
+
 ### copy files
+[man cp](https://man7.org/linux/man-pages/man1/cp.1.html)
+
+```bash
+# recursively copy
+$ cp -R [src] [target]
+```
 
 ### take advantage of the tab autocomplete feature
 
 ### linking files
+
+there are two types of file links available in Linux.
+
+* symbolic link
+
+[man ln](https://man7.org/linux/man-pages/man1/ln.1.html)
+
+* hard link
 
 ### rename files
 
