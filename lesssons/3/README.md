@@ -136,7 +136,7 @@ there are two types of file links available in Linux.
 
 [man ln](https://man7.org/linux/man-pages/man1/ln.1.html) or info ln
 
-* symbolic link
+* symbolic link(some call it soft link)
 ``` bash
 $ ln -s ex.c sl_ex.c
 $ ls -il *ex.c
@@ -152,4 +152,74 @@ $ stat *ex.c
 
 ### rename files
 
+[man mv](https://man7.org/linux/man-pages/man1/mv.1.html)
+
+The inode number and modification time of the file do not change.
+The mv command only affects the name of a file.
+It is also used to change the location of a file.
+
+As with cp, you can use the -i option with mv.
+This will prompt you to do so before attempting to overwrite an existing file.
+
 ### erase files
+
+[man rm](https://man7.org/linux/man-pages/man1/rm.1.html)
+
+Let's make the -i option a daily routine.
+Conversely, there will be times when the -f option is useful.
+
+
+## Managing directory
+
+### create a directory
+
+[man mkdir](https://man7.org/linux/man-pages/man1/mkdir.1.html)
+
+```bash
+# to create subdirectory as well, add the -p option
+$ mkdir -p A/B/C/D/...
+```
+
+
+### remove a directory
+
+The default command for removing a directory is [rmdir](https://man7.org/linux/man-pages/man1/rmdir.1.html)
+
+By default, rmdir can only be used to remove empty directories.
+To solve this problem, you must first remove the files in it.
+
+If you want to remove all non-empty directories, use 'rm - r'
+
+```bash
+$ tree [dir]
+# Be careful with the -f option. Water already spilled cannot be contained.
+$ rm -rf dir
+```
+
+
+## View file contents
+
+
+### view file types
+
+[man file](https://man7.org/linux/man-pages/man1/file.1.html)
+
+### view whole of a file
+
+* [cat](https://man7.org/linux/man-pages/man1/cat.1.html)
+```bash
+# line numbering
+$ cat -n [file]
+
+# if you want omit blank lines, use -b
+$ cat -b [file]
+
+# if you dont' want the tab character to appear, use -T
+$ cat -T [fie]
+```
+
+* [more](https://man7.org/linux/man-pages/man1/more.1.html)
+
+* [less](https://man7.org/linux/man-pages/man1/less.1.html
+
+### view part of a file
