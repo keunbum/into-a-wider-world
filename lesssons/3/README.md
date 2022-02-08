@@ -134,11 +134,21 @@ $ cp -R [src] [target]
 
 there are two types of file links available in Linux.
 
-[man ln](https://man7.org/linux/man-pages/man1/ln.1.html)
+[man ln](https://man7.org/linux/man-pages/man1/ln.1.html) or info ln
 
 * symbolic link
+``` bash
+$ ln -s ex.c sl_ex.c
+$ ls -il *ex.c
+$ stat *ex.c
+```
 
 * hard link
+``` bash
+$ ln ex.c hl_ex.c
+$ ls -il *ex.c
+$ stat *ex.c
+```
 
 ### rename files
 
