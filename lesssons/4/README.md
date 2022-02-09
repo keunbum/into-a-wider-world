@@ -146,9 +146,28 @@ see also:
 
 | utility  | file extension | explanation                                                                            |
 |----------|----------------|----------------------------------------------------------------------------------------|
-| bzip2    | .bz2           | it uses the Burrows-Wheeler block-sorted text compression algorithm and Huffman Coding |
-| compress | .Z             | original Unix file compression utility. declining trend                                |
-| gzip     | .gz            | compression utility from the GNU Project. Lempel-Ziv Coding is used                    |
+| bzip2    | .bz2           | It uses the Burrows-Wheeler block-sorted text compression algorithm and Huffman Coding |
+| compress | .Z             | Original Unix file compression utility. declining trend                                |
+| gzip     | .gz            | Compression utility from the GNU Project. Lempel-Ziv Coding is used                    |
 | zip      | .zip           | Unix version of PKZIP for Windows                                                      |
 
+```bash
+$ gzip [file]
+```
+
 ### 4.3.4 data archive
+
+[tar](https://man7.org/linux/man-pages/man1/tar.1.html) - an archiving utility
+
+```bash
+# some examples..
+
+$ tar -cvf test.tar test/ test2/
+
+$ tar -tf test.tar
+
+$ tar -xvf test.tar
+
+# if you encounter a file ending in tgz or tar.gz
+$ tar -zxvf filname.tgz
+```
