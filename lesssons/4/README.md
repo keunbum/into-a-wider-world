@@ -70,3 +70,34 @@ $ killall [name]
 
 
 ## 4.2 Disk Space Monitoring
+
+### 4.2.1 media mount
+
+[mount](https://man7.org/linux/man-pages/man8/mount.8.html) - mount a filesystem
+
+```bash
+$ mount
+```
+
+[umount](https://man7.org/linux/man-pages/man8/umount.8.html) - unmount a filesystem
+
+### 4.2.2 df command
+
+```bash
+$ df -h
+```
+
+### 4.2.3 du command
+
+[du](https://man7.org/linux/man-pages/man1/du.1.html) - estimate file space usage
+
+```bash
+$ du -h
+
+$ du -c
+
+$ du -s
+```
+
+
+## 4.3 Work with data files
