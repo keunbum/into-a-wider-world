@@ -44,18 +44,17 @@ $ ps --forest
 
 #### Table 4.4. linux process signal
 
-| signal | name |                  explanation                  |
-|:------:|:----:|:---------------------------------------------:|
-|    1   | HUP  | disconnected                                  |
-|    2   | INT  | interrupt                                     |
-|    3   | QUIT | stop running                                  |
-|    9   | KILL | end uncoditionally                            |
-|   11   | SEGV | create a segment violation                    |
-|   15   | TERM | shut down if possible                         |
-|   17   | STOP | abort unconditionally, but not terminate      |
-|   18   | TSTP | abort or pause but keep running in backgournd |
-|   19   | CONT | resume execution after STOP of TSTP           |
-
+| signal | name | explanation                                   |
+|--------|------|-----------------------------------------------|
+| 1      | HUP  | disconnected                                  |
+| 2      | INT  | interrupt                                     |
+| 3      | QUIT | stop running                                  |
+| 9      | KILL | end uncoditionally                            |
+| 11     | SEGV | create a segment violation                    |
+| 15     | TERM | shut down if possible                         |
+| 17     | STOP | abort unconditionally, but not terminate      |
+| 18     | TSTP | abort or pause but keep running in backgournd |
+| 19     | CONT | resume execution after STOP of TSTP           |
 
 [kill](https://man7.org/linux/man-pages/man1/kill.1.html) - send a signal to a process(terminate a process)
 
