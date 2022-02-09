@@ -63,7 +63,7 @@ Common Linux directory names are based on the FHS(Filesystem Hierarchy Standard)
 
 ## 3.5 View a list of files and directories
 
-[man ls](https://man7.org/linux/man-pages/man1/ls.1.html)
+[ls](https://man7.org/linux/man-pages/man1/ls.1.html)
 
 ### 3.5.1 show default list
 
@@ -121,7 +121,7 @@ $ ls -l --time=atime [file]
 ```
 
 ### 3.6.2 copy files
-[man cp](https://man7.org/linux/man-pages/man1/cp.1.html)
+[cp](https://man7.org/linux/man-pages/man1/cp.1.html)
 
 ```bash
 # recursively copy
@@ -134,7 +134,7 @@ $ cp -R [src] [target]
 
 there are two types of file links available in Linux.
 
-[man ln](https://man7.org/linux/man-pages/man1/ln.1.html) or info ln
+[ln](https://man7.org/linux/man-pages/man1/ln.1.html) or info ln
 
 * symbolic link(some call it soft link)
 ``` bash
@@ -152,7 +152,7 @@ $ stat *ex.c
 
 ### 3.6.5 rename files
 
-[man mv](https://man7.org/linux/man-pages/man1/mv.1.html)
+[mv](https://man7.org/linux/man-pages/man1/mv.1.html)
 
 The inode number and modification time of the file do not change.
 The mv command only affects the name of a file.
@@ -163,7 +163,7 @@ This will prompt you to do so before attempting to overwrite an existing file.
 
 ### 3.6.6 erase files
 
-[man rm](https://man7.org/linux/man-pages/man1/rm.1.html)
+[rm](https://man7.org/linux/man-pages/man1/rm.1.html)
 
 Let's make the -i option a daily routine.
 Conversely, there will be times when the -f option is useful.
@@ -173,7 +173,7 @@ Conversely, there will be times when the -f option is useful.
 
 ### 3.7.1 create a directory
 
-[man mkdir](https://man7.org/linux/man-pages/man1/mkdir.1.html)
+[mkdir](https://man7.org/linux/man-pages/man1/mkdir.1.html)
 
 ```bash
 # to create subdirectory as well, add the -p option
@@ -202,7 +202,7 @@ $ rm -rf dir
 
 ### 3.8.1 view file types
 
-[man file](https://man7.org/linux/man-pages/man1/file.1.html)
+[file](https://man7.org/linux/man-pages/man1/file.1.html)
 
 ### 3.8.2 view whole of a file
 
