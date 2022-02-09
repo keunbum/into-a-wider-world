@@ -101,3 +101,54 @@ $ du -s
 
 
 ## 4.3 Work with data files
+
+### 4.3.1 soring data
+
+[sort](https://man7.org/linux/man-pages/man1/sort.1.html) - sort lines of text files
+
+```bash
+# character-sort
+$ sort [file]
+
+# numeric-sort
+$ sort -n [file]
+
+# month-sort
+# compare (unknown) < 'JAN' < ... < 'DEC'
+$ sort -M [file]
+
+
+# some examples
+
+# if you want to sort by the third field of data, the userID,
+# -k based on 1-indexed
+$ sort -t ':' -k 3 -n /etc/passwd
+
+# sort results
+# -r: reversed
+$ du -sh | sort -nr
+```
+
+### 4.3.2 searching data
+
+[grep](https://man7.org/linux/man-pages/man1/grep.1.html) - print lines that match patterns
+
+```bash
+$ grep [option] pattern [file]
+```
+
+see also:
+[egrep](https://man7.org/linux/man-pages/man1/grep.1.html)
+
+### 4.3.3 compress data
+
+#### Table 4-7. Linux compression utility
+
+| utility  | file extension | explanation                                                                            |
+|----------|----------------|----------------------------------------------------------------------------------------|
+| bzip2    | .bz2           | it uses the Burrows-Wheeler block-sorted text compression algorithm and Huffman Coding |
+| compress | .Z             | original Unix file compression utility. declining trend                                |
+| gzip     | .gz            | compression utility from the GNU Project. Lempel-Ziv Coding is used                    |
+| zip      | .zip           | Unix version of PKZIP for Windows                                                      |
+
+### 4.3.4 data archive
