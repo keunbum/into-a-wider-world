@@ -64,5 +64,9 @@ $ kill -s HUP [pid]
 
 [killall](https://man7.org/linux/man-pages/man1/killall.1.html) - kill processes by name
 
+```bash
+$ killall [name]
+```
+
 
 ## 4.2 Disk Space Monitoring
