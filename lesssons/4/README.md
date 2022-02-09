@@ -1,4 +1,4 @@
-# More bash shell commands
+# 4. More bash shell commands
 
 ## 4.1 Monitoring the program
 

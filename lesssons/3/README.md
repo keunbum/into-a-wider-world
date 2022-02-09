@@ -1,11 +1,11 @@
-# Basic Bash Shell commands
+# 3. Basic Bash Shell commands
 
-## Start the shell
+## 3.1 Start the shell
 
 The GNU bash shell is a program that allows you to interactively connect to a Linux system. The bash shell is run as a regular program, usually every time the user logs into the terminal. The shell that the system launches depends on the configuration of the user ID. This can be found in the /etc/passwd file.
 
 
-## Use the shell prompt
+## 3.2 Use the shell prompt
 
 If you run the terminal pakage or log in to the Linux virtual console, you will be connected to the shell CLI prompt.
 This prompt is the gateway to the shell and is where you enter shell commands.
@@ -13,7 +13,7 @@ This prompt is the gateway to the shell and is where you enter shell commands.
 The default prompt symbol in the bash shell is the dollar sign($). This symbol indicates that it is waiting for shell text input.
 
 
-## Interact with man page
+## 3.3 Interact with man page
 
 ```bash
 # how to use man page
@@ -52,20 +52,20 @@ $ help help
 ```
 
 
-## Explore file system
+## 3.4 Explore file system
 
-### Linux file system
+### 3.4.1 Linux file system
 
 Common Linux directory names are based on the FHS(Filesystem Hierarchy Standard).
 
-### directory
+### 3.4.2 directory
 
 
-## View a list of files and directories
+## 3.5 View a list of files and directories
 
 [man ls](https://man7.org/linux/man-pages/man1/ls.1.html)
 
-### show default list
+### 3.5.1 show default list
 
 ```bash
 $ ls -F
@@ -73,7 +73,7 @@ $ ls -R
 $ ls -a
 ```
 
-### show a long list
+### 3.5.2 show a long list
 
 ```bash
 $ ls -l
@@ -99,15 +99,15 @@ From then on, each line contains the following information for each file (or dir
 * File or directory name
 
 
-### filter the list output
+### 3.5.3 filter the list output
 
 Let's use regular expressions.
 
 
-## File handling
+## 3.6 File handling
 
 
-### create a file
+### 3.6.1 create a file
 
 ```bash
 # create an empty file
@@ -120,7 +120,7 @@ $ touch -a [file]
 $ ls -l --time=atime [file]
 ```
 
-### copy files
+### 3.6.2 copy files
 [man cp](https://man7.org/linux/man-pages/man1/cp.1.html)
 
 ```bash
@@ -128,9 +128,9 @@ $ ls -l --time=atime [file]
 $ cp -R [src] [target]
 ```
 
-### take advantage of the tab autocomplete feature
+### 3.6.3 take advantage of the tab autocomplete feature
 
-### linking files
+### 3.6.4 linking files
 
 there are two types of file links available in Linux.
 
@@ -150,7 +150,7 @@ $ ls -il *ex.c
 $ stat *ex.c
 ```
 
-### rename files
+### 3.6.5 rename files
 
 [man mv](https://man7.org/linux/man-pages/man1/mv.1.html)
 
@@ -161,7 +161,7 @@ It is also used to change the location of a file.
 As with cp, you can use the -i option with mv.
 This will prompt you to do so before attempting to overwrite an existing file.
 
-### erase files
+### 3.6.6 erase files
 
 [man rm](https://man7.org/linux/man-pages/man1/rm.1.html)
 
@@ -169,9 +169,9 @@ Let's make the -i option a daily routine.
 Conversely, there will be times when the -f option is useful.
 
 
-## Managing directory
+## 3.7 Managing directory
 
-### create a directory
+### 3.7.1 create a directory
 
 [man mkdir](https://man7.org/linux/man-pages/man1/mkdir.1.html)
 
@@ -181,7 +181,7 @@ $ mkdir -p A/B/C/D/...
 ```
 
 
-### remove a directory
+### 3.7.2 remove a directory
 
 The default command for removing a directory is [rmdir](https://man7.org/linux/man-pages/man1/rmdir.1.html)
 
@@ -197,14 +197,14 @@ $ rm -rf dir
 ```
 
 
-## View file contents
+## 3.8 View file contents
 
 
-### view file types
+### 3.8.1 view file types
 
 [man file](https://man7.org/linux/man-pages/man1/file.1.html)
 
-### view whole of a file
+### 3.8.2 view whole of a file
 
 * [cat](https://man7.org/linux/man-pages/man1/cat.1.html)
 ```bash
@@ -224,7 +224,7 @@ $ cat -T [fie]
 
 less better than more..
 
-### view part of a file
+### 3.8.3 view part of a file
 
 * [tail](https://man7.org/linux/man-pages/man1/tail.1.html)
 

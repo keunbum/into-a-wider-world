@@ -6,8 +6,8 @@
 
 int main() {
 	int n;
-
 	scanf("%d", &n);
+
 	const char* S = "Hello World";
 	int len = strlen(S);
 	int cnt = min(n, len);
@@ -17,5 +17,6 @@ int main() {
 		}
 		putchar('\n');
 	}
+
 	return 0;
 }

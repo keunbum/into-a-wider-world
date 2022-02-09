@@ -1,7 +1,7 @@
-# Linux Basic
+# 2. Linux Basic
 Before getting into bash scripting, I'd like to start with some simple Linux basics.
 
-## What is LInux?
+## 2.1 What is LInux?
 
 * Kernel
 
@@ -45,7 +45,7 @@ Before getting into bash scripting, I'd like to start with some simple Linux bas
 
 
 
-## Linux Distribution
+## 2.2 Linux Distribution
 
 * Core Linux Distribution
  
