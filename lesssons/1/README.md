@@ -7,7 +7,7 @@ I would like to write some small tips in Debian/Ubuntu distribution.
 
 ```vimrc
 " a setting just for me
-" hmm... can't I have different options for different file types?
+" hmm... can I have different options for different file types?
 
 set tabstop=2
 set shiftwidth=2
