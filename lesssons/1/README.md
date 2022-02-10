@@ -47,5 +47,5 @@ $ apt install build-essential
 
 ```bash
 $ apt install software-properties-common
-$ add-apt-repository ppa:ubuntu-tollchain-r/test
+$ add-apt-repository ppa:ubuntu-toolchain-r/test
 ```
