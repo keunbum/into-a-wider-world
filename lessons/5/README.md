@@ -17,7 +17,7 @@ $ ls -lF /bin/sh
 
 
 $ /bin/sh
-$ exit (or Ctrl-D)
+$ exit (or Ctrl-d)
 $
 ```
 
@@ -88,7 +88,39 @@ $ (pwd; (echo $BASH_SUBSHELL))
 2
 ```
 
+Subshells are used for multiprocessing in shell scripts, but using subshells at a cost. Because it makes processing quite
+slow. The subshell problem also exists in interactive CLI shell sessions. This is not true multiprocessing. This is because
+the terminal is bound to the input and output of the subshell.
+
 ### 5.2.2 use the subshells creatively
+
+#### 5.2.2.1 background mode
+
+A classic command to illustrate the concept of the backgound mode:
+
+[sleep](https://man7.org/linux/man-pages/man1/sleep.1.html) - delay for a specified amount of time
+
+If you want the command to run in background mode, add an '&' character at the end.
+
+```bash
+$ sleep 60&
+[1] ~~~
+$ ps -f
+```
+
+[jobs(1p)](https://man7.org/linux/man-pages/man1/jobs.1p.html) - display status of jobs in the current session
+
+
+#### 5.2.2.2 put the process list in background mode
+
+```bash
+$ (sleep 2; echo $BASH_SUBSHELL; sleep 2)
+
+# It's hard to fully understand...
+$ (sleep 2; echo $BASH_SUBSHELL; sleep 2)&
+```
+
+#### 5.2.2.3 explore co-processing
 
 
 ## 5.3 Explore built-in shell commands
